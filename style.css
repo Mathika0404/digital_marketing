@@ -73,12 +73,15 @@ html, body {
   gap: 15px;
 }
 
+
 .btn {
   padding: 14px 28px;
   border-radius: 30px;
   font-size: 15px;
   text-decoration: none;
   transition: all 0.3s ease;
+    display: inline-block;
+  cursor: pointer;
 }
 
 .btn.primary {
