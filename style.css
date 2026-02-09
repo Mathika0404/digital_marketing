@@ -71,6 +71,8 @@ html, body {
 .hero-buttons {
   display: flex;
   gap: 15px;
+  position: relative;
+  z-index: 5;
 }
 
 
@@ -80,8 +82,12 @@ html, body {
   font-size: 15px;
   text-decoration: none;
   transition: all 0.3s ease;
-    display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  position: relative;
+  z-index: 6;
 }
 
 .btn.primary {
@@ -102,6 +108,7 @@ html, body {
   background: #fff;
   color: #000;
 }
+
 
 /* RIGHT IMAGE */
 .hero-image img {
